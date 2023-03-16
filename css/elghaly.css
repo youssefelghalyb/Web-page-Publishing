@@ -1,0 +1,702 @@
+/*start the main body*/
+body
+{
+background-color:#fff;
+
+}
+.container /*the content of the page  */
+{
+  width:1170px;
+  margin: auto;
+}
+/*end the main body*/
+
+/*start the header*/
+
+.header .slider
+{
+  background-image: url("../photos/slider.v2.png");
+  height:400px;
+
+
+}
+
+.header .slider .container .intro
+  {
+      padding-top:120px;
+    height:400px;
+    text-align: center;
+  }
+
+  .header .slider .container .intro h2
+  {
+    color:#000;
+    font-weight: bold;
+    margin:0 auto;
+    border-top:3px solid #000;
+    border-bottom:3px solid #000;
+    font-size:40px;
+    width:500px;
+    padding:5px
+
+  }
+  .header .slider .container .intro button
+  {
+    color:#000;
+    background:none;
+    width:140px;
+    border:3px solid black;
+    border-radius:5px;
+    height:35px;
+    margin:30px;
+    font-weight:bold;
+    font-size:19px
+    }
+
+    .header .slider .container .intro button:hover
+    {
+      color:#000;
+      background-color:rgb(55, 140, 252);
+      cursor: pointer;
+    }
+
+
+
+/*start nav*/
+.header .navbar
+{
+  background-color:#252F31;
+  color:#fff;
+  overflow:hidden;
+
+}
+
+.header .navbar h2
+{
+  float:left;
+  font-size:25px;
+    text-transform: uppercase;
+}
+.header .navbar h2 span
+{
+  color:rgb(55, 140, 252)
+}
+
+.header .navbar ul
+{
+  list-style:none;
+ padding-left:0;
+ overflow:hidden;
+ float:right;
+
+
+}
+
+.header .navbar ul li
+{
+float: left;
+padding: 10px
+}
+.header .navbar ul li a
+{
+  color:#fff;
+  text-decoration: none;
+}
+.header .navbar ul li a:hover
+{
+  color:rgb(55, 140, 252)
+}
+
+/*end the header*/
+
+
+/*start the business model*/
+
+.business_model
+{
+  overflow:hidden;
+  padding:50px;
+
+}
+
+.business_model .business_model1
+{
+  float: left;
+  width:33.33%;
+  height:200px;
+  background-color:
+
+}
+.business_model .business_model1 h2
+{
+  text-transform:uppercase;
+  color:#53585C;
+}
+
+.business_model .business_model1 p
+{
+  text-transform:none;
+  font-size:15px;
+    color:rgb(91, 91, 91);
+    line-height:1.3
+
+}
+
+
+/*end the business model*/
+
+
+/*start the about us*/
+
+.about_us
+{
+  background-color:#F2F2F2;
+  overflow: hidden;
+  margin-bottom:50px
+
+}
+
+.img1
+{
+  width:400px;
+  height:500px;
+  float: left;
+  border:1px solid rgb(55, 140, 252)
+}
+.about_us .ab_us_cont
+{
+  float:left;
+  padding-left:30px;
+
+}
+.about_us .ab_us_cont h2
+{
+  color:#5B6668
+}
+
+.about_us .ab_us_cont .color
+{
+  color:#666;
+  font-style: oblique;
+}
+
+.about_us .ab_us_cont .books
+{
+  overflow: hidden;
+  margin: 30px 0px 0px 0
+}
+.about_us .ab_us_cont .books > div
+{
+  float:left;
+  width:50%;
+  min-height:100px
+}
+.about_us .ab_us_cont .books > div h3
+{
+  color:#5B6668;
+  text-transform: capitalize;
+}
+.about_us .ab_us_cont .books .icons
+{
+  width:40px;
+  float:left;
+  margin-top:15px;
+  margin-right:3px
+}
+.about_us .ab_us_cont .books p
+{
+  color:#444
+}
+
+/*end the about us*/
+
+/*start review*/
+
+.review
+{
+  overflow:hidden;
+  height:430px
+
+}
+
+.review .container .review_title , .review .container .rate
+{
+  float:left;
+  width:50%;
+  height:350px;
+
+}
+
+
+.review .container .review_title h2
+{
+  color:#53585C;
+  text-transform: capitalize;
+}
+
+.review .container .review_title p
+{
+  color:#53585C;
+  font-style:italic;
+
+}
+
+.review .container .review_title button
+{
+  background-color:#fff;
+  color:rgb(55, 140, 252);
+  border:1px solid rgb(55, 140, 252);
+  width:130px;
+  height:30px;
+  text-transform:uppercase;
+  padding:5px;
+  border-radius:5px;
+  cursor:pointer;
+  font-weight: bold;
+  margin-top: 46px
+}
+.review .container .review_title button:hover
+{
+  background-color:rgb(55, 140, 252);
+  color:#000
+}
+.review .container .rate h1
+{
+  color:#53585C;
+  text-align: center;
+}
+
+.review .container .rate h2
+{
+  color:#53585C;
+  text-transform: capitalize;
+}
+.review .container .rate .percantage .ninty7
+{
+  width:380px;
+  background-color:rgba(55, 140, 252,1);
+  overflow: hidden;
+}
+.review .container .rate .percantage .ninty7 span
+{
+  float:right;
+  color:#fff;
+  font-size:20px
+}
+.review .container .rate .percantage .seventyf
+{
+  width:300px;
+  background-color:rgba(55, 140, 252,1);
+  overflow: hidden;
+}
+.review .container .rate .percantage .seventyf span
+{
+  float:right;
+  color:#fff;
+  font-size:20px
+}
+.review .container .rate .percantage .ninty
+{
+  width:350px;
+  background-color:rgba(55, 140, 252,1);
+  overflow: hidden;
+}
+.review .container .rate .percantage .ninty span
+{
+  float:right;
+  color:#fff;
+  font-size:20px
+}
+.review .container .rate .percantage .ety
+{
+  width:330px;
+  background-color:rgba(55, 140, 252,1);
+  overflow: hidden;
+}
+.review .container .rate .percantage .ety span
+{
+  float:right;
+  color:#fff;
+  font-size:20px
+}
+
+
+/*end review*/
+
+/*start book lists */
+.book_list
+{
+  background-color:#F2F2F2;
+  height:350px
+
+}
+.booklist_title
+{
+    text-align: center;
+}
+
+.book_list .container .booklist_title h2
+{
+  text-align: center;
+  color:#53585C;
+  padding-top:60px;
+}
+.book_list .container .booklist_title p
+{
+  text-align: center;
+  font-style: italic;
+    color:#53585C;
+    margin-top:35px
+}
+
+.book_list .container .booklist_title button
+{
+  background-color:#fff;
+  color:rgb(55, 140, 252);
+  border:1px solid rgb(55, 140, 252);
+  width:250px;
+  height:35px;
+  font-weight: bold;
+  border-radius:5px;
+  text-transform: uppercase;
+  cursor:pointer;
+  padding:5px;
+  margin-top:40px
+}
+.book_list .container .booklist_title button:hover
+{
+  background-color:rgb(55, 140, 252);;
+  color:#000;
+
+}
+
+
+/*end book lists */
+
+
+/*start best deals */
+
+.best_deals
+{
+  overflow:hidden;
+  height:500px
+}
+.best_deals .container .bestdeals_title
+{
+  float:left;
+  width:50%
+}
+.best_deals .container .bestdeals_title h2
+{
+  color:#5B6668;
+  font-size:35px
+}
+.best_deals .container .bestdeals_title p
+{
+  color:#53585C;
+ font-size:18px
+}
+.best_deals .container .bsdeals
+{
+  overflow: hidden;
+}
+.best_deals .container .bsdeals .hr hr
+{
+  width:800px;
+  float:right;
+  margin-top:0;
+  color:rgb(55, 140, 252)
+}
+.best_deals .container .bsdeals .space
+{
+  margin-bottom:60px
+}
+.best_deals .container .bsdeals p
+{
+  color:#666
+}
+.best_deals .container .bsdeals span
+{
+  border:1px solid rgb(55, 140, 252);
+  padding:5px;
+  background-color:rgb(55, 140, 252);
+  border-radius:5px;
+  color:#fff
+}
+/*end best deals */
+
+
+/*start books of year*/
+
+.books_of_year
+{
+  overflow: hidden;
+
+}
+
+.books_of_year .container .books_of_ytiltie
+{
+  float: left;
+  width: 50%;
+}
+.books_of_year .container .books_of_ytiltie h2
+{
+  color:#5B6668;
+    font-size:35px
+}
+.books_of_year .container .books_of_ytiltie p
+{
+  color:#53585C;
+ font-size:18px;
+}
+.books_of_year .container .my-books
+{
+  overflow: hidden;
+}
+.books_of_year .container .my-books.space
+{
+  margin-bottom:80px
+}
+.books_of_year .container .my-books h2
+{
+  color:rgb(55, 140, 252)
+
+}
+.books_of_year .container .my-books p
+{
+  color:#666;
+  font-style: oblique;
+}
+.books_of_year .container .my-books .name
+{
+  color:black;
+  font-style: normal;
+}
+
+/*end books of year*/
+
+/*start comments*/
+
+.comments
+{
+  overflow: hidden;
+  background-color:#F2F2F2;
+}
+
+.comments .container p
+{
+  text-align: center;
+  font-style: italic;
+    color:#53585C;
+    margin-top:35px
+}
+
+.comments .container .rev_name
+{
+  font-weight:bolder;
+  font-style:
+
+}
+.comments .container ul
+{
+  list-style-type: none;
+  padding-left:0;
+  text-align: center;
+}
+.comments .container ul li
+{
+  width:15px;
+  height:10px;
+  border: 2px solid rgb(55, 140, 252);
+  display:inline-block;
+  border-radius:20px
+}
+.active
+{
+  background-color:rgb(55, 140, 252);
+}
+#lis:hover
+{
+  cursor: pointer;
+  background-color:rgb(55, 140, 252)
+}
+
+/*end comments*/
+
+
+
+/*start store*/
+
+.store
+{
+  overflow:hidden;
+      margin-top:30px
+}
+
+.store .container .store_title h1
+{
+
+    text-align: center;
+    color:rgb(55, 140, 252)
+
+  }
+  .store .container .store_title p
+  {
+    text-align: center;
+    color:#666;
+    margin-bottom:60px
+  }
+
+
+    .store .container .store_title .img img
+    {
+      display:inline-block;
+      width:29.3333%;
+      height:300px;
+      float:left;
+      border:1px solid rgb(55, 140, 252);
+      padding:10px
+    }
+    .store .container .store_title .img img:hover
+    {
+      cursor: pointer;
+      background-color:rgba(255,255,255,0.5)
+    }
+    /*end store*/
+
+
+
+
+/*start footer*/
+
+
+.footer
+{
+  overflow: hidden;
+  margin-top:80px;
+  background-color:#252F31;
+  height:600px
+
+}
+.footer .container .footer_ytiltie
+{
+  float:left;
+  width:50%
+}
+.footer .container .footer_ytiltie h1
+{
+  color:#fff
+}
+.footer .container .footer_ytiltie p
+{
+  color:rgba(255,255,255,0.5)
+}
+.footer .container .footer_ytiltie p span
+{
+  color:#fff
+}
+
+.labels
+{
+  margin:80px;
+
+}
+.labels .name0
+{
+  font-size:30px;
+  color:#fff
+}
+
+.labels .name1
+{
+  width:350px;
+  height:25px;
+  background-color:#4B5557;
+  border: 2px solid #4B5557 ;
+  border-radius:4px
+}
+.email
+{
+  font-size:30px;
+  color:#fff
+}
+.email0
+{
+  width:350px;
+  height:25px;
+  background-color:#4B5557;
+  border: 2px solid #4B5557 ;
+  border-radius:4px
+}
+.password
+{
+  font-size:30px;
+  color:#fff
+}
+.password0
+{
+  width:350px;
+  height:25px;
+  background-color:#4B5557;
+  border: 2px solid #4B5557 ;
+  border-radius:4px
+}
+label
+{
+  margin-top:60px
+}
+.labels button
+
+{
+  float:right;
+  margin-right:350px;
+  background-color:rgba(0,0,0,0.5);
+  color:#fff;
+  border:1px solid rgba(0,0,0,0.5);
+  width:150px;
+  height:35px;
+  font-weight: bold;
+  border-radius:5px;
+  text-transform: uppercase;
+  cursor:pointer;
+  padding:5px;
+
+}
+
+/*end footer*/
+
+/*start copy*/
+
+.copyright
+{
+  background-color:#191E22;
+  height:170px;
+
+}
+.copyright .container .copyright_title
+{
+  text-align: center;
+  font-size:20px;
+  font-weight: bold;
+  padding-top:50px;
+  color:#363E41
+}
+.copyright .container .copyright_title ul
+{
+  list-style-type:none;
+  padding-left:0;
+  margin-top:30px
+}
+
+.copyright .container .copyright_title ul li
+{
+  display: inline-block;
+  padding-right:16px
+}
+.copyright .container .copyright_title ul li :hover
+{
+  cursor: pointer;
+  background-color:#fff;
+  border:1px solid #191E22;
+  border-radius:17px
+}
